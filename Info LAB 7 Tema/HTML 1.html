@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+th.dotted {border-style:dotted;}
+td.dotted {border-style: dotted;}
+li.solid {border-style: solid;}
+h4.solid {border-style: solid;}
+body {
+  background-color: lightgreen;
+}
+
+h1 {
+  color:Red;
+  text-align: center;
+   font-family: verdana;
+  font-size: 20px;
+}
+h2 {
+  color:Yellow;
+   font-family: verdana;
+  font-size: 20px;
+  
+  }
+
+p {
+  color:Blue;
+  font-family: verdana;
+  font-size: 20px;
+}
+
+h3.round1 {
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 5px;
+  color:cyan;
+   font-family: verdana;
+  font-size: 20px;
+}
+tr {
+  color:Purple;
+   font-family: verdana;
+  font-size: 20px;
+  
+</style>
+</head>
+<body>
+
+<button type="button" onclick='document.getElementById("d").innerHTML = "Loc de munca:Accesa"'>Alta viata</button>
+<button type="button" onclick='document.getElementById("de").innerHTML = "Pozitia:Programator junior"'>Pozitia</button>
+
+<h1>Profil: ETTI</h1>
+<p id="d">Nume:Fufezan</p>
+<p id="de">Prenume:Andrei Cristian</p>
+<p>Contact: fufezancristian49@yahoo.com</p>
+
+<h2>Poza</h2>
+<button onclick="document.getElementById('p').src='cristi 2.jpg'">Change Photo</button>
+<img id="p" src="cristi.jpg" width="400" height="400">
+
+<h3 class="round1">Tabel de discipline</h3>
+<table style="width:100%">
+  
+    <th class="dotted">Disciplina</th>
+    <td class="dotted">Anul</td>
+    <th class="dotted">Asteptari</th>
+    
+<tr>
+    <td class="dotted">Programarea calculatoarelor si limbaje de programare</td>
+    <td class="dotted">1</td>
+    <td class="dotted"> Invatare programare</td>
+  <tr>
+    <td class="dotted">Componente si circuite pasive</td>
+    <td class="dotted">1</td>
+    <td class="dotted">Invatarea electronicii</td>
+  </tr>
+  <tr>
+  <td class="dotted">Informatica aplicata</td>
+  <td class="dotted">1</td>
+  <td class="dotted">Construirea unui calculator</td>
+</table>
+<p><a href="https://el.el.obs.utcluj.ro/site/2021_2022/tst/TST_2021_2022_pdf.htm" target="_blank">Site cu discipline</a></p>
+
+<button type="button" onclick='document.getElementById("dem").innerHTML = "Invatarea limbajelor de programare la un nivel mediu"'>Schimbari</button>
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Invatare Java"'>Limbaj de programare</button>
+<button type="button" onclick='document.getElementById("demoo").innerHTML = "Invatarea informaticii"'>Informatica</button>
+
+<h4 style="background-color:Tomato;" class="solid">Lista cu activitati</h4>
+<ul>
+<li id="dem"style="background-color:DodgerBlue;" class="solid">Gaming</li>
+<li id="demo"style="background-color:DodgerBlue;" class="solid">Sport</li>
+<li id="demoo"style="background-color:DodgerBlue;" class="solid">Alergat</li>
+
+</body>
+</html>
